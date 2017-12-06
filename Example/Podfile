@@ -1,0 +1,15 @@
+
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+project 'Example.xcodeproj'
+
+platform :ios, '8.0'
+
+target 'Example' do
+
+   pod 'Analysis' ,:path => '../Analysis.podspec'
+
+end
+
